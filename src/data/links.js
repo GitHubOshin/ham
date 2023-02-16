@@ -1,19 +1,23 @@
 const links = [
   {
     name: 'Mbow',
-    to: '/'
+    to: '/',
+    img: 'images/mbow-nct.jpg'
   },
   {
     name: 'Nu',
-    to: '/'
+    to: '/',
+    img: 'images/nu-nct.jpg'
   },
   {
     name: 'Guitar',
-    to: '/'
+    to: '/',
+    img: 'images/guitar-nct.jpg'
   },
   {
     name: 'Tintin',
-    to: '/'
+    to: '/',
+    img: 'images/tintin-nct.jpg'
   }
 ]
 

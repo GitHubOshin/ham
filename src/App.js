@@ -1,25 +1,9 @@
-import Header from './components/Header'
-import { useState } from 'react'
-import Sidebar from './components/Sidebar'
+import Images from './components/Images'
 
 function App() {
-  const [openMenu, setOpenMenu] = useState(false)
-
   return (
-    <div className="w-screen h-screen bg-red-700">
-      {openMenu === true ? (
-        <Sidebar
-          closeMenu={() => {
-            setOpenMenu(false)
-          }}
-        />
-      ) : (
-        <Header
-          openMenu={() => {
-            setOpenMenu(true)
-          }}
-        />
-      )}
+    <div className="relative w-screen h-full bg-stone-50">
+      <Images />
     </div>
   )
 }
